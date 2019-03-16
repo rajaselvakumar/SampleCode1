@@ -1,6 +1,6 @@
 package MyProject.MavenProject;
 
-
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -24,6 +24,10 @@ public class FirstJavaProgram {
 		driver.quit();
 	}
 	
-	
+	@Test
+	public void testMethod() {
+		
+		System.out.println("Executing TestMethod");
+	}
 
 }
