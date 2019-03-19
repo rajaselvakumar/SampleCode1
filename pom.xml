@@ -13,10 +13,8 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
-  <dependencies>
-    
-	  <build>
+	
+ <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -28,6 +26,9 @@
       </plugin>
     </plugins>
   </build>
+
+  <dependencies>
+    
 	  
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
